@@ -2,7 +2,7 @@
 
 from app import app
 from models import db, Customer, Review, Item
-
+# customer updates
 with app.app_context():
 
     Customer.query.delete()
