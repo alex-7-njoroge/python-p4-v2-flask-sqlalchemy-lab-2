@@ -4,7 +4,7 @@ from app import app
 from models import db, Customer, Review, Item
 # customer updates
 with app.app_context():
-
+# customer updates
     Customer.query.delete()
     Review.query.delete()
     Item.query.delete()
